@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body id="body">
+
+
+    <h1>GRADIENT-INATOR</h1>
+    <div class="container">
+
+        <div id="gradient"></div>
+        <h2><b>choose the colors of your gradient</b>
+        </h2>
+        <input type="color" name="color1" class="color1">
+        <input type="color" name="color1" class="color2">
+
+        <div>
+
+            LINEAR
+
+        </div>
+        <br>
+        <label for="toright">
+            to right:<input type="radio" name="options" id="toright">
+        </label>
+        <label for="toleft">
+            to left:<input type="radio" name="options" id="toleft">
+        </label>
+        <label for="totop">
+            to top:<input type="radio" name="options" id="totop">
+        </label>
+        <label for="tobright">
+            to bottom-right:<input type="radio" name="options" id="tobright">
+        </label>
+        <label for="tobleft">
+            to bottom-left:<input type="radio" name="options" id="tobleft">
+        </label>
+        <label for="totright">
+            to top-right:<input type="radio" name="options" id="totright">
+        </label>
+        <label for="totleft">
+            to top-left:<input type="radio" name="options" id="totleft">
+        </label>
+        <br>
+        <br>
+        <div>
+            <label for="radial">
+                RADIAL<input type="radio" class="choices" id="radial" name="options">
+            </label>
+
+        </div>
+
+
+        <h3>color code of generated gradient</h3>
+        <p id="p"></p>
+        <div>
+        <button id="button" onclick="copy()">Copy To Clipboard</button>
+        </div>
+    </div>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
